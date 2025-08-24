@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, render_template
 import sqlite3
-
 # Tell Flask where to find templates + static
 app = Flask(__name__, static_folder="templates/static")
 
@@ -69,3 +68,4 @@ if __name__ == "__main__":
     url = f"http://127.0.0.1:{port}"
     print(f"\n🚀 Your app is running! Open this URL in your browser:\n👉 {url}\n")
     app.run(debug=True, port=port)
+
