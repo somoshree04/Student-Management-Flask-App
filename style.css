@@ -10,7 +10,6 @@ th.sortable:hover {
   text-decoration: underline;
   color: #0e56c2;
 }
-
 /* Improve table readability */
 .table-hover tbody tr:hover {
   background-color: #f1f1f1;
@@ -32,3 +31,4 @@ button.btn-warning:hover {
 button.btn-danger:hover {
   background-color: #bb2d3b;
 }
+
