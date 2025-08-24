@@ -9,7 +9,6 @@ async function loadStudents() {
   studentsData = await res.json();
   renderTable(studentsData);
 }
-
 // Render table
 function renderTable(data) {
   currentDisplayed = data; // save current table view
@@ -128,4 +127,5 @@ function downloadCSV() {
 
 // Load initially
 loadStudents();
+
 
