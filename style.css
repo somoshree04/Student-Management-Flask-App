@@ -1,0 +1,34 @@
+body{
+    background-color: #c1d5f3;
+}
+/* Table header sorting hover effect */
+th.sortable {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+th.sortable:hover {
+  text-decoration: underline;
+  color: #0e56c2;
+}
+
+/* Improve table readability */
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Search box styling */
+#searchBox {
+  max-width: 220px;
+}
+
+/* Buttons */
+button.btn-warning {
+  color: #fff;
+}
+button.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+button.btn-danger:hover {
+  background-color: #bb2d3b;
+}
